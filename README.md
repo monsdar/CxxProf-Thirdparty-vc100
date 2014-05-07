@@ -16,3 +16,6 @@ ZeroMQ | 4.0.4 | [zeromq.org](http://zeromq.org/intro:get-the-software)
 
 * Compiled for 32bit
 * Compiled for Microsoft Visual Compiler v100 (Visual Studio 2010)
+
+**This Thirdparty was compiled with the help of [ElHolzi](https://github.com/ElHolzi)**
+
