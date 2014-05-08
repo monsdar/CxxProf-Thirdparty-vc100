@@ -66,11 +66,11 @@ set( Zeromq_LIBRARIES       optimized ${THIRDPARTY_DIR}/zmq/lib/libzmq-v100-mt-4
 
 #Sqlite3
 set( Sqlite3_INCLUDE_DIRS   ${THIRDPARTY_DIR}/sqlite3/include)
-set( Sqlite3_LIBRARIES      optimized ${THIRDPARTY_DIR}/sqlite3/lib/sqlite3_vc100.lib
-                            debug ${THIRDPARTY_DIR}/sqlite3/lib/sqlite3_vc100.lib)
+set( Sqlite3_LIBRARIES      optimized ${THIRDPARTY_DIR}/sqlite3/lib/sqlite3.lib
+                            debug ${THIRDPARTY_DIR}/sqlite3/lib/sqlite3.lib)
 
 #Sqlite3cc
 set( Sqlite3cc_INCLUDE_DIRS ${THIRDPARTY_DIR}/sqlite3cc/include)
-set( Sqlite3cc_LIBRARIES    optimized ${THIRDPARTY_DIR}/sqlite3cc/lib/sqlite3cc_vc100.lib
-                            debug ${THIRDPARTY_DIR}/sqlite3cc/lib/sqlite3cc_vc100.lib)
+set( Sqlite3cc_LIBRARIES    optimized ${THIRDPARTY_DIR}/sqlite3cc/lib/sqlite3cc.lib
+                            debug ${THIRDPARTY_DIR}/sqlite3cc/lib/sqlite3cc.lib)
 
